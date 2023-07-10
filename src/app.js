@@ -109,6 +109,7 @@ app.post('/divide', (req, res) => {
 });
 
 
+
 // Helper function to check if a value is a valid number
 function isNumeric(value) {
   return typeof value === 'number' && !isNaN(value);
