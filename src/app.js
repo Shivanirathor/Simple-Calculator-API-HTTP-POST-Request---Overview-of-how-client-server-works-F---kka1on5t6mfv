@@ -118,8 +118,8 @@ function isOutOfBounds(value) {
 }
 
 // Start the server
-const port = 3000;
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
+const server = app.listen(4000, () => {
+  console.log(`Server running on port 4000`);
 });
-
+    
+module.exports = app;
