@@ -87,6 +87,7 @@ app.post('/multiply', (req, res) => {
 });
 
 // Define the /divide endpoint
+// Define the /divide endpoint
 app.post('/divide', (req, res) => {
   const { num1, num2 } = req.body;
 
@@ -106,6 +107,7 @@ app.post('/divide', (req, res) => {
 
   res.json({ result });
 });
+
 
 // Helper function to check if a value is a valid number
 function isNumeric(value) {
